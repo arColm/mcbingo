@@ -115,6 +115,11 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
+	{name: "Light a candle with an arrow", infrequency: 8, tags: [Action, Overworld]},
+	{name: "Die to fireworks", antisynergy:["Fireworks"], infrequency: 2, tags: [Action]},
+	{name: "Kill (10-15) different mobs", tags: [Action, Combat]},
+	{name: "(15-20) Advancements", tags: [Action, Advancement]},
+	{name: "Plant sugar cane, cactus or bamboo on a suspicious block", infrequency: 5, tags: [Action, Overworld]},
 	{name: "Place an iron block within 10 blocks of the world center (0,~,0) and leave it.", infrequency: 5, tags: [Action]},
 	{name: "Play in a different language (Not English)", tooltiptext: "No Pirate Speak, Anglish, Upside Down!", infrequency: 25, tags: [Action]},
 	{name: "Set a Squid or Glow Squid on fire", tags: [Action, Overworld]},
@@ -318,6 +323,10 @@ var bingoList_v5 = [
 
 // Medium (2)
 [	
+	{name: "Kill a mob with a Splash Water Bottle", infrequency: 2, tags: [Action, Combat]},
+	{name: "Use a firework to ring a bell", antisynergy:["Fireworks"], infrequency: 2, tags: [Action]},
+	{name: "Kill a creeper with fireworks", antisynergy:["Fireworks"], infrequency: 2, tags: [Action, Combat]},
+	{name: "Take damage from an armor stand.", infrequency: 2, tags: [Action]},
 	{name: "Ride a pig", infrequency: 4, tags: [Item, Overworld]},
 	{name: "(7-9) different Bamboo themed items", tooltiptext: "Any item with \'Bamboo\' in its name.", infrequency: 8, tags: [Item, Overworld, RareBiome]},
 	{name: "Obtain (3-5) potion effects at once", infrequency: 8, tags: [Action]},
@@ -503,6 +512,7 @@ var bingoList_v5 = [
 // Hard (3)
 [
 	{name: "Break a diamond tool", tags: [Action]},
+	{name: "\'Eye Spy\' Advancement", infrequency: 3, tags: [Advancement, Overworld, Nether, Action]},
 	{name: "\'Zombie Doctor\' Advancement", tags: [Advancement, Overworld, Action]},
 	{name: "\'Spooky Scary Skeleton\' Advancement", tags: [Advancement, Nether, Action]},
 	{name: "\'Subspace Bubble\' Advancement", tags: [Advancement, Nether, Action]},
