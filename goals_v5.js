@@ -122,7 +122,7 @@ var bingoList_v5 = [
 	{name: "drjulian8. Use milk to cure poison from yourself.", tags: [Action, Name]},
 	{name: "Mushroomfireman. Surround a red or brown mushroom with fire.", tags: [Action, Name, Nether]},
 	{name: "Thevenomous22. Receive or inflict poison in (3-5) different ways.", tags: [Action, Name]},
-	{name: "Elsidraws. Build the word \'ELSI\' with any block. All Letters should be 3x5 size.", tags: [Build, Name]},
+	{name: "Elsidraws. Build the word \'ELSI\' using all colors of a rainbow.",tooltiptext:" All Letters should be 3x5 size. Any block with the color in its name works.", tags: [Build, Name]},
 	{name: "Jungifungi. Collect all of both mushrooms and both nether fungus.", tags: [Item, Name, Nether]},
 	{name: "Butterfly1354. Throw butter (a gold ingot) and have it travel at least 13.54 blocks vertically.", tags: [Action, Name]},
 	{name: "Liamo3323 afk... Drink or eat (8-9) items in one go without using the keyboard.", tags: [Action, Name]},
