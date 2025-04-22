@@ -18,6 +18,7 @@ Nether = {name: "Nether", max: [0, 2, 5, 10, 15], line: true},
 End = {name: "End", max: [0, 0, 0, 1, 5], line: true},
 Finish = {name: "Finish", max: [1, 1, 1, 1, 1], line: true},
 Netherite = {name: "Netherite", max: [0, 0, 0, 1, 3], line: true};
+Name = {name: "Name", max: [1, 1, 1, 1, 1], line: true};
 
 var bingoList_v5 = [
 
@@ -118,12 +119,14 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
-	{name: "ARColm. Shoot a mob without it being on your screen when you fire an arrow.", infrequency: 3, tags: [Action, Combat]},
-	{name: "ChefBaboon. Cook or craft (6-8) different edible items.", infrequency: 3, tags: [Action]},
-	{name: "ARace22. Hit a cat or ocelot without sneaking or holding fish.", infrequency: 3, tags: [Action]},
-	{name: "Mail3323. Title a book \'3323\' and leave it in a villager's chest.", infrequency: 3, tags: [Action, Village]},
+	{name: "Butterfly1354. Throw butter (a gold ingot) and have it travel at least 20 blocks vertically.", tags: [Action, Name]},
+	{name: "Liamo3323 afk... Drink or eat (4-6) different items in one go without moving.", tags: [Action, Name]},
+	{name: "ARColm. Shoot a mob without it being on your screen when you fire an arrow.", tags: [Action, Combat, Name]},
+	{name: "ChefBaboon. Cook or craft (6-8) different edible items.", tags: [Item, Name]},
+	{name: "ARace22. Hit a cat or ocelot without sneaking or holding fish.", tags: [Action, Name]},
+	{name: "Mail3323. Title a book \'3323\' and leave it in a villager's chest.", tags: [Action, Village, Name]},
 	{name: "Build an exact copy of a tree next to it.", infrequency: 3, tags: [Build]},
-	{name: "Froggietime. Kill a frog with a clock.", infrequency: 3, tags: [Action, RareBiome, Combat]},
+	{name: "Froggietime. Kill a frog with a clock.", tags: [Action, RareBiome, Combat, Name]},
 	{name: "Kill (4-6) different hostile mobs.", tooltiptext:"Check Stats. These are any mobs that always try to hurt you. No spiders, endermen.", infrequency: 5, tags: [Action, Combat, Stat]},
 	{name: "Write a player's name in a book, sign it, and have them die.", tooltiptext: "This can be yourself.", infrequency: 8, tags: [Action]},
 	{name: "Light a candle with an arrow", infrequency: 8, tags: [Action, Overworld]},
