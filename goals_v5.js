@@ -18,7 +18,7 @@ Nether = {name: "Nether", max: [0, 2, 5, 10, 15], line: true},
 End = {name: "End", max: [0, 0, 0, 1, 5], line: true},
 Finish = {name: "Finish", max: [1, 1, 1, 1, 1], line: true},
 Netherite = {name: "Netherite", max: [0, 0, 0, 1, 3], line: true};
-Name = {name: "Name", max: [1, 1, 1, 1, 1], line: true};
+Name = {name: "Name", max: [2, 2, 2, 2, 2], line: true};
 
 var bingoList_v5 = [
 
@@ -119,11 +119,16 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
-	{name: "Butterfly1354. Throw butter (a gold ingot) and have it travel at least 20 blocks vertically.", tags: [Action, Name]},
-	{name: "Liamo3323 afk... Drink or eat (4-6) different items in one go without moving.", tags: [Action, Name]},
-	{name: "ARColm. Shoot a mob without it being on your screen when you fire an arrow.", tags: [Action, Combat, Name]},
-	{name: "ChefBaboon. Cook or craft (6-8) different edible items.", tags: [Item, Name]},
-	{name: "ARace22. Hit a cat or ocelot without sneaking or holding fish.", tags: [Action, Name]},
+	{name: "drjulian8. Use milk to cure poison from yourself.", tags: [Action, Name]},
+	{name: "Mushroomfireman. Surround a red or brown mushroom with fire.", tags: [Action, Name, Nether]},
+	{name: "Thevenomous22. Receive or inflict poison in (3-5) different ways.", tags: [Action, Name]},
+	{name: "Elsidraws. Build the word \'ELSI\' with any block. Letters should be 3x3 size at most.", tags: [Build, Name]},
+	{name: "Jungifungi. Collect all of both mushrooms and both nether fungus.", tags: [Item, Name, Nether]},
+	{name: "Butterfly1354. Throw butter (a gold ingot) and have it travel at least 13.54 blocks vertically.", tags: [Action, Name]},
+	{name: "Liamo3323 afk... Drink or eat (4-6) different items in one go without using the keyboard.", tags: [Action, Name]},
+	{name: "ARColm. Shoot a mob with a bow without it being on your screen when you fire the arrow.", tags: [Action, Combat, Name]},
+	{name: "ChefBaboon. Cook (in furnace) or craft (6-8) different edible items.", tags: [Item, Name]},
+	{name: "ARace22. Melee attack a cat or ocelot without sneaking or holding fish.", tags: [Action, Name]},
 	{name: "Mail3323. Title a book \'3323\' and leave it in a villager's chest.", tags: [Action, Village, Name]},
 	{name: "Build an exact copy of a tree next to it.", infrequency: 3, tags: [Build]},
 	{name: "Froggietime. Kill a frog with a clock.", tags: [Action, RareBiome, Combat, Name]},
@@ -296,7 +301,6 @@ var bingoList_v5 = [
 	{name: "Drown a Zombie", tags: [Action, Combat, Overworld]},
 	{name: "(2-5) Gunpowder", antisynergy: ["Gunpowder"], infrequency: 2, tags: [Item]},
 	{name: "(2-5) Spider Eyes", antisynergy: ["SpiderEye"], infrequency: 2, tags: [Item, Overworld]},
-	{name: "(4-5) Different Edible Items", tooltiptext: "Raw and Cooked variants count as one (e.g. Raw Beef and Steak).", tooltipimg: "Goal Tooltip Images/RawAndCooked.jpg", antisynergy: ["EdibleItems"], infrequency: 2, tags: [Item, Overworld]},
 	{name: "Breed (2-4) sets of mobs", tooltiptext: "Check the 'General' statistics screen!", antisynergy: ["BreedAnimals"], infrequency: 2, tags: [Action, Stat]},
 	{name: "Crouch a distance of (100-200) meters", tooltiptext: "Check the 'General' statistics screen!", antisynergy: ["CrouchDistance"], infrequency: 2, tags: [Action, Stat]},
 	{name: "Never use Third Person (F5)", tags: [Never]},
