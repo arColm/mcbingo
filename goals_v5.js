@@ -377,7 +377,7 @@ var bingoList_v5 = [
 	{name: "drjulian8. Eat a Golden Apple while you have the Weakness effect.", tags: [Action, Name]},
 	{name: "Build an exact copy of a villager's house next to it.", infrequency: 5, tags: [Build, Village]},
 	{name: "Kill (2-3) different neutral mobs.", tooltiptext:"Check Stats. These are any mobs that can be passive that can hurt you.", infrequency: 5, tags: [Action, Combat, Stat]},
-	{name: "Kill a mob with a Splash Water Bottle", infrequency: 2, tags: [Action, Combat]},
+	{name: "Kill a mob with a Splash Water Bottle", infrequency: 2, tags: [Action, Combat, Nether]},
 	{name: "Use a firework to ring a bell", antisynergy:["Fireworks"], infrequency: 2, tags: [Action]},
 	{name: "Kill a creeper with fireworks", antisynergy:["Fireworks"], infrequency: 2, tags: [Action, Combat]},
 	{name: "Take damage from an armor stand.", infrequency: 2, tags: [Action]},
