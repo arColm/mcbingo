@@ -152,7 +152,7 @@ var bingoList_v5 = [
 	{name: "Get forced out of bed without any keyboard or mouse input while sleeping.", tags: [Action]},
 	{name: "Sargent_SAS. Detonate a TNT in a villager's house.", tags: [Action, Village, Name]},
 	{name: "H3rpaD3rp. Make 2 pigs look at you at the same time without holding food.", tags: [Action, Name]},
-	{name: "Souvenier! Find and place a block in spawn (use compass) that does not naturally spawn in that biome.", tags: [Item, Action]},
+	{name: "Souvenier! Find and place a naturally spawned block in spawn (use compass) that does not occur in that biome.", tags: [Item, Action]},
 	{name: "Attack a piglin.", tags: [Combat, Nether]},
 	{name: "Deplete a shear.", tags: [Action]},
 	{name: "Sleep next to a sleeping villager.", tags: [Action, Village]},
