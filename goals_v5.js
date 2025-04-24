@@ -137,6 +137,7 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
+	{name: "Make a mob die with an explosion that destroys tiles.", tags: [Combat]},
 	{name: "Throw 64 of anything into lava or fire.", tags: [Item, Action]},
 	{name: "Destroy a nether portal block.", tags: [Action]},
 	{name: "(2-3) different blocks that emit any light.", antisynergy: ["EmitLight"], tags: [Item]},
@@ -372,9 +373,9 @@ var bingoList_v5 = [
 
 // Medium (2)
 [	
+	{name: "Finish with a Tropical Fish in a Bucket", tags: [Item, Ocean, Overworld, RareBiome]},
 	{name: "(8-10) Emeralds",antisynergy:["Emeralds"], tags: [Item]},
 	{name: "(4-5) different blocks that emit any light.", antisynergy: ["EmitLight"], tags: [Item]},
-	{name: "Make a mob die with an explosion that destroys tiles.", tags: [Combat]},
 	{name: "(4-5) different polished blocks", antisynergy: ["PolishedBlocks"], infrequency: 2, tags: [Item]},
 	{name: "Build an exact copy of a tree next to it using different logs and leaves.", antisynergy:["BuildATree"], infrequency: 2, tags: [Build]},
 	{name: "Kill a hostile mob with Powdered Concrete", reactant: ["Pacifist"], antisynergy: ["KillFallingBlock"], infrequency: 2, tags: [Action, Combat]},
