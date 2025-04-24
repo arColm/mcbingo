@@ -132,6 +132,7 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
+	{name: "(2-3) different polished blocks", antisynergy: ["PolishedBlocks"], infrequency: 2, tags: [Item]},
 	{name: "2 different raw metal blocks.", antisynergy: ["RawMetalBlocks"], infrequency: 2, tags: [Item]},
 	{name: "(3-5) Copper Blocks", antisynergy: ["CopperBlocks"], infrequency: 2, tags: [Item]},
 	{name: "Watch a mob die on your spyglass.", tags: [Action]},
@@ -160,7 +161,7 @@ var bingoList_v5 = [
 	{name: "ChefBaboon. Cook (in furnace) or craft (6-8) different edible items.", tags: [Item, Name]},
 	{name: "ARace22. Melee attack a cat or ocelot while sprinting without sneaking or holding fish.", tags: [Action, Name]},
 	{name: "Mail3323. Title a book \'3323\' and leave it in a villager's chest.", tags: [Action, Village, Name]},
-	{name: "Build an exact copy of a tree next to it.", infrequency: 2, tags: [Build]},
+	{name: "Build an exact copy of a tree next to it.", antisynergy:["BuildATree"], infrequency: 2, tags: [Build]},
 	{name: "Froggietime. Kill a frog with a clock.", tags: [Action, RareBiome, Combat, Name]},
 	{name: "Kill (4-6) different hostile mobs.", tooltiptext:"Check Stats. These are any mobs that always try to hurt you. No spiders, endermen.", infrequency: 5, tags: [Action, Combat, Stat]},
 	{name: "Write a player's name in a book, sign it, and have them die.", tooltiptext: "This can be yourself.", infrequency: 8, tags: [Action]},
@@ -365,6 +366,9 @@ var bingoList_v5 = [
 
 // Medium (2)
 [	
+	{name: "(4-5) different polished blocks", antisynergy: ["PolishedBlocks"], infrequency: 2, tags: [Item]},
+	{name: "Build an exact copy of a tree next to it using different logs and leaves.", antisynergy:["BuildATree"], infrequency: 2, tags: [Build]},
+	{name: "Kill a hostile mob with Powdered Concrete", reactant: ["Pacifist"], antisynergy: ["KillFallingBlock"], infrequency: 2, tags: [Action, Combat]},
 	{name: "3 different raw metal blocks.", antisynergy: ["RawMetalBlocks"], infrequency: 2, tags: [Item]},
 	{name: "(5-7) Copper Blocks", antisynergy: ["CopperBlocks"], infrequency: 2, tags: [Item]},
 	{name: "Watch a wolf dry itself.",antisynergy:["TameWolf"], tags: [Action]},
