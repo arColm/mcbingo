@@ -24,6 +24,10 @@ var bingoList_v5 = [
 
 // Very Easy (0)
 [
+	{name: "Die.", tags: [Action]},
+	{name: "Get 64 of anything.", tags: [Item]},
+	{name: "Eat something.", tags: [Action]},
+	{name: "Open a door.", tags: [Action]},
 	{name: "Have at least 6 mobs following you.", tags: [Combat]},
 	{name: "Kill a mob with a pumpkin on your head.", tags: [Combat]},
 	{name: "Place 6 lightning rods all facing different directions.", tags: [Build]},
@@ -132,6 +136,10 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
+	{name: "Throw 64 of anything into lava or fire.", tags: [Item, Action]},
+	{name: "Destroy a nether portal block.", tags: [Action]},
+	{name: "(2-3) different blocks that emit any light.", antisynergy: ["EmitLight"], tags: [Item]},
+	{name: "Surround at least 2 passive animals in fences or gates.", tags: [Build]},
 	{name: "(2-3) different polished blocks", antisynergy: ["PolishedBlocks"], infrequency: 2, tags: [Item]},
 	{name: "2 different raw metal blocks.", antisynergy: ["RawMetalBlocks"], infrequency: 2, tags: [Item]},
 	{name: "(3-5) Copper Blocks", antisynergy: ["CopperBlocks"], infrequency: 2, tags: [Item]},
@@ -366,6 +374,8 @@ var bingoList_v5 = [
 
 // Medium (2)
 [	
+	{name: "(4-5) different blocks that emit any light.", antisynergy: ["EmitLight"], tags: [Item]},
+	{name: "Make a mob die with an explosion that destroys tiles.", tags: [Combat]},
 	{name: "(4-5) different polished blocks", antisynergy: ["PolishedBlocks"], infrequency: 2, tags: [Item]},
 	{name: "Build an exact copy of a tree next to it using different logs and leaves.", antisynergy:["BuildATree"], infrequency: 2, tags: [Build]},
 	{name: "Kill a hostile mob with Powdered Concrete", reactant: ["Pacifist"], antisynergy: ["KillFallingBlock"], infrequency: 2, tags: [Action, Combat]},
@@ -418,7 +428,7 @@ var bingoList_v5 = [
 	{name: "(16-32) Cherry Logs", infrequency: 4, tags: [Item, RareBiome, Overworld]},
 	{name: "Kill an Allay", reactant: ["Pacifist"], infrequency: 8, tags: [Action, RareBiome, Overworld]},
 	{name: "Play a Goat Horn",infrequency: 8, tags: [Item, RareBiome, Overworld]},
-	{name: "Place (3-5) different non-flower plants in flower pots", tags: [Action]},
+	{name: "Place (3-5) different non-flower biota in flower pots", tags: [Action]},
 	{name: "Grow a Mangrove", tags: [Item, RareBiome, Overworld]},
 	{name: "Play 2 different Music Discs at the same time", infrequency: 8, tags: [Item]},
 	{name: "Fill a Bundle with Bundles", antisynergy: ["Bundles"], tags: [Item, Overworld]},
