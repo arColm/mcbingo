@@ -132,6 +132,8 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
+	{name: "2 different raw metal blocks.", antisynergy: ["RawMetalBlocks"], infrequency: 2, tags: [Item]},
+	{name: "(3-5) Copper Blocks", antisynergy: ["CopperBlocks"], infrequency: 2, tags: [Item]},
 	{name: "Watch a mob die on your spyglass.", tags: [Action]},
 	{name: "Have 5 mobs at least partially visible in a spyglass at the same time.", tags: [Action]},
 	{name: "Do-do-mi. Make 3 note blocks play do-do-mi sequentially, continuously.", tags: [Build, Name]},
@@ -363,6 +365,8 @@ var bingoList_v5 = [
 
 // Medium (2)
 [	
+	{name: "3 different raw metal blocks.", antisynergy: ["RawMetalBlocks"], infrequency: 2, tags: [Item]},
+	{name: "(5-7) Copper Blocks", antisynergy: ["CopperBlocks"], infrequency: 2, tags: [Item]},
 	{name: "Watch a wolf dry itself.",antisynergy:["TameWolf"], tags: [Action]},
 	{name: "Make a snow golem and have it die by biome temperature.", tags: [Action, RareBiome]},
 	{name: "Elsidraws. Build the word \'ELSI\' using at least 10 different fully opaque blocks.",tooltiptext:" All Letters should be 3x5 size.", tags: [Build, Name]},
