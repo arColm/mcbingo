@@ -365,7 +365,7 @@ var bingoList_v5 = [
 [	
 	{name: "Watch a wolf dry itself.",antisynergy:["TameWolf"], tags: [Action]},
 	{name: "Make a snow golem and have it die by biome temperature.", tags: [Action, RareBiome]},
-	{name: "Elsidraws. Build the word \'ELSI\' using all colors of a rainbow.",tooltiptext:" All Letters should be 3x5 size. Any block with the color in its name works. Lime instead of green works. Purple for both indigo and violet.", tags: [Build, Name]},
+	{name: "Elsidraws. Build the word \'ELSI\' using at least 10 different fully opaque blocks.",tooltiptext:" All Letters should be 3x5 size.", tags: [Build, Name]},
 	{name: "drjulian8. Eat a Golden Apple while you have the Weakness effect.", tags: [Action, Name]},
 	{name: "Build an exact copy of a villager's house next to it.", infrequency: 5, tags: [Build, Village]},
 	{name: "Kill (2-3) different neutral mobs.", tooltiptext:"Check Stats. These are any mobs that can be passive that can hurt you.", infrequency: 5, tags: [Action, Combat, Stat]},
