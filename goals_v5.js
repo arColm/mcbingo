@@ -137,6 +137,8 @@ var bingoList_v5 = [
 
 // Easy (1)
 [
+	{name: "Saddle", tags: [Item]},
+	{name: "Place a painting with an animal in it.", tags: [Action]},
 	{name: "Make a mob die using an explosion that destroys tiles.", tags: [Combat]},
 	{name: "Throw 64 of anything into lava or fire.", tags: [Item, Action]},
 	{name: "Destroy a nether portal block.", tags: [Action]},
@@ -373,6 +375,9 @@ var bingoList_v5 = [
 
 // Medium (2)
 [	
+	{name: "Leash a mob to a Hoglin", tags: [Action, Nether]},
+	{name: "Obtain a music disc NOT from a creeper.", tags: [Item]},
+	{name: "Dried Ghast", tags: [Item, Nether]},
 	{name: "Finish with a Tropical Fish in a Bucket", tags: [Item, Ocean, Overworld, RareBiome]},
 	{name: "(8-10) Emeralds",antisynergy:["Emeralds"], tags: [Item]},
 	{name: "(4-5) different blocks that emit any light, in inventory.", antisynergy: ["EmitLight"], tags: [Item]},
@@ -394,6 +399,8 @@ var bingoList_v5 = [
 	{name: "Ride a pig", infrequency: 4, tags: [Item, Overworld]},
 	{name: "(7-9) different Bamboo themed items", tooltiptext: "Any item with \'Bamboo\' in its name.", infrequency: 8, tags: [Item, Overworld, RareBiome]},
 	{name: "Have (3-5) effects at the same time", infrequency: 4, tags: [Action]},
+	{name: "\'Stay Hydrated!\' Advancement", tags: [Advancement, Nether]},
+	{name: "\'Heart Transplanter\' Advancement", infrequency: 8, tags: [Advancement, RareBiome]},
 	{name: "\'Bullseye\' Advancement", tags: [Advancement]},
 	{name: "\'Is it a Balloon?\' Advancement", infrequency: 4, tags: [Advancement, Nether]},
 	{name: "\'Wax Off\' Advancement", infrequency: 2, tags: [Advancement]},
@@ -511,13 +518,12 @@ var bingoList_v5 = [
 	{name: "(2-4) Prismarine Crystals", infrequency: 2, tags: [Item, Ocean, Overworld]},
 	{name: "Dig straight down to Bedrock from Sea level (1x1 hole)", tooltiptext: "Sea Level is Y=63, but starting from higher is fine.", tags: [Action, Overworld]},
 	{name: "Deplete an Iron Sword", reactant: ["SwordUse"], tooltiptext: "Use an Iron Sword until it breaks, check the 'Items' statistics screen!", tooltipimg: "Goal Tooltip Images/SwordDepelete.jpg", tags: [Action, Stat]},
-	{name: "Saddle", tags: [Item]},
 	{name: "Give a mob a Hat", tags: [Action, Combat]},
 	{name: "Heart of the Sea", tags: [Item, Ocean, Overworld]},
 	{name: "Phantom Membrane", reactant: ["Pacifist"], tags: [Item, Combat, Overworld]},
 	{name: "Add a Marker to a Map", tags: [Action, Overworld]},
 	{name: "Water, Lava, Milk and Fish Bucket", antisynergy: ["BucketTypes", "WaterBucket", "LavaBucket", "MilkBucket", "FishBucket"], reactant: ["UseBuckets"], tooltiptext: "Can be any of the types of Fish.", tooltipimg: "Goal Tooltip Images/FishBucket.jpg", tags: [Item, Overworld]},
-	{name: "Leash a Dolphin to a Fence", tags: [Action, Ocean, RareBiome, Overworld]},
+	{name: "Leash a mob to a Dolphin", tags: [Action, Ocean, RareBiome, Overworld]},
 	{name: "(11-15) Dried Kelp Blocks", antisynergy: ["KelpBlocks"], tags: [Item, Ocean, Overworld]},
 	{name: "(6-15) Gunpowder", antisynergy: ["Gunpowder"], infrequency: 2, tags: [Item, Combat]},
 	{name: "(6-15) Spider Eyes", antisynergy: ["SpiderEye"], infrequency: 2, tags: [Item, Combat, Overworld]},
